@@ -25,6 +25,7 @@
       <span v-show="!isbzj">最小预付款比率(%):<span style="font-size: 30px; margin-left:  10px; color:red;">{{bzjlv}}%</span></span><br/>
       <span v-show="isheshi">建议:<span style="font-size: 30px; margin-left:  10px; color:red;">这个单子不合适，不建议下单</span></span><br/>
       <span v-show="!isheshi">建议:<span style="font-size: 30px; margin-left:  10px; color:green;">盈亏比合理，祝你好运</span></span><br/>
+      <p>目前手数:{{prhand}}</p>
     </div>
   </div>
 </template>
@@ -50,7 +51,7 @@ export default {
       accountloss:0.0,
       op:'EURUSD',
       profit:0.001,
-      prhand:0.0,
+      prhand:-1,
       bzj:0.53,
       bzjlv:0,
       yinkui:0,
