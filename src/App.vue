@@ -15,7 +15,7 @@
       <span>StopLoss:<input style="margin-left: 10px;" v-model="StopLoss"></span><br/><br/>
       <span>最大止损金额(usd):<input style="margin-left: 10px;" v-model="maxLoss"></span><br/>
       <button @click="compute" style="width: 60px; height: 60px;">计算</button><br/>
-      <span>开单手数:<span style="font-size: 40px; margin-left: 10px;">{{prhand}}</span></span><br/>
+      <span>开单手数:(大于0自定义手数,小于0系统提供手数)<span style="font-size: 40px; margin-left: 10px;">{{prhand}}</span></span><br/>
       <span>止损将损失(usd):<span style="font-size: 30px; margin-left: 10px;color: red;">{{accountloss}}</span></span><br/>
       <span>止盈将获得(usd):<span style="font-size: 30px; margin-left:  10px; color:green;">{{accountprofit}}</span></span><br/>
       <span>需要的保证金(usd):<span style="font-size: 30px; margin-left:  10px; color:green;">{{accountbzj}}</span></span><br/>
@@ -68,7 +68,9 @@ export default {
       this.isbzj=false
       this.yinkui=false
       this.isheshi=true
+      if(this.prhand<0){
       this.prhand =((this.maxLoss/(Math.abs(this.currentPrice-this.StopLoss).toFixed(5)/this.product[this.productId].profit))*this.basehande).toFixed(2)
+      }
       console.log("最大损失金额:",this.maxLoss)
       console.log("波动点差:",Math.abs(this.currentPrice-this.StopLoss).toFixed(5))
       console.log("0.01手波动金额:",(Math.abs(this.currentPrice-this.StopLoss)/this.product[this.productId].profit).toFixed(2))
