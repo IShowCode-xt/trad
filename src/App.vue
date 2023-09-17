@@ -15,7 +15,7 @@
       <span>StopLoss:<input style="margin-left: 10px;" v-model="StopLoss"></span><br/><br/>
       <span>最大止损金额(usd):<input style="margin-left: 10px;" v-model="maxLoss"></span><br/>
       <button @click="compute" style="width: 60px; height: 60px;">计算</button><br/>
-      <span>开单手数:(大于0自定义手数,小于0系统提供手数)<span style="font-size: 40px; margin-left: 10px;">{{prhand}}</span></span><br/>
+      <span>开单手数:(大于0自定义手数,小于0系统提供手数)<input style="margin-left: 10px;" v-model="prhand"></span><br/>
       <span>止损将损失(usd):<span style="font-size: 30px; margin-left: 10px;color: red;">{{accountloss}}</span></span><br/>
       <span>止盈将获得(usd):<span style="font-size: 30px; margin-left:  10px; color:green;">{{accountprofit}}</span></span><br/>
       <span>需要的保证金(usd):<span style="font-size: 30px; margin-left:  10px; color:green;">{{accountbzj}}</span></span><br/>
