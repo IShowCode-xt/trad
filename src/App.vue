@@ -2,7 +2,7 @@
   <div id="app">
     <h2 style="text-align: center;">Trade Computed</h2>
     <div style="margin-left: 40%;">
-      <p>选择产品</p>
+      <p>选择产品(每次前开单请先刷新，以防数据错误)</p>
       <select style="width: 100px;" @change="changeproduct($event)">
         <option v-for="(item,index) in product" :key="index" :value='item.id'>{{item.title}}</option>
       </select>
