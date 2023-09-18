@@ -56,7 +56,7 @@ export default {
       bzjlv:0,
       yinkui:0,
       accountbzj:0,
-      product:[{id:1,title:"EURUSD",bzj:0.53,profit:0.001},{id:2,title:"GBPUSD",bzj:0.62,profit:0.001},{id:3,title:"XAUUSD",bzj:0.53,profit:1},{id:4,title:"USOIL",bzj:4.52,profit:0.1},{id:5,title:"AUDCAD",bzj:0.32,profit:0.00136}]
+      product:[{id:1,title:"EURUSD",bzj:0.53,profit:0.001},{id:2,title:"GBPUSD",bzj:0.62,profit:0.001},{id:3,title:"XAUUSD",bzj:0.96,profit:1},{id:4,title:"USOIL",bzj:4.5,profit:0.1},{id:5,title:"AUDCAD",bzj:0.32,profit:0.00136}]
     }
   },
   methods:{
