@@ -57,7 +57,7 @@ export default {
       yinkui:0,
       accountbzj:0,
       // 修改商品
-      product:[{id:1,title:"EURUSD",bzj:0.53,profit:0.001},{id:2,title:"XAUUSD",bzj:0.96,profit:1},{id:3,title:"USOIL",bzj:4.5,profit:0.1},{id:4,title:"DXYM",bzj:0.53,profit:0.1},{id:5,title:"GBPJPY",bzj:0.61,profit:0.1524}]
+      product:[{id:1,title:"EURUSD",bzj:0.53,profit:0.001},{id:2,title:"XAUUSD",bzj:0.96,profit:1},{id:3,title:"USOIL",bzj:4.5,profit:0.1},{id:4,title:"DXYM",bzj:0.53,profit:0.1},{id:5,title:"GBPJPY",bzj:0.61,profit:0.1524},{id:6,title:"BTCUSD",bzj:0.67,profit:0.104}]
     }
   },
   methods:{
