@@ -57,7 +57,7 @@ export default {
       yinkui:0,
       accountbzj:0,
       // 修改商品 0.01手盈利1u的浮动价格((0.01手)浮动的价差/(0.01手)浮动的价格)
-      product:[{id:1,title:"XAUUSD",bzj:0.96,profit:1},{id:2,title:"USOIL",bzj:4.5,profit:0.1},{id:3,title:"DXYM",bzj:0.53,profit:0.1},{id:4,title:"AUDCAD",bzj:0.32,profit:0.0014},{id:5,title:"EURJPY",bzj:0.52,profit:0.147},{id:6,title:"EURGBP",bzj:0.53,profit:0.00086},{id:7,title:"GBPJPY",bzj:0.62,profit:0.16},{id:8,title:"USDCHF",bzj:0.5,profit:0.00086},{id:9,title:"BTCUSD",bzj:0.93,profit:97.64},{id:10,title:"NZDJPY",bzj:0.3,profit:0.148},{id:11,title:"AUDUSD",bzj:0.33,profit:0.001},{id:12,title:"AUDJPY",bzj:0.33,profit:0.14},{id:13,title:"GBPCAD",bzj:0.64,profit:0.0013},{id:14,title:"EURUSD",bzj:0.56,profit:0.001},{id:15,title:"EURAUD",bzj:0.56,profit:0.00148}]
+      product:[{id:1,title:"XAUUSD",bzj:0.96,profit:1},{id:2,title:"USOIL",bzj:4.5,profit:0.1},{id:3,title:"DXYM",bzj:0.53,profit:0.1},{id:4,title:"AUDCAD",bzj:0.32,profit:0.00131783},{id:5,title:"EURJPY",bzj:0.52,profit:0.14285714},{id:6,title:"EURGBP",bzj:0.53,profit:0.00086},{id:7,title:"GBPJPY",bzj:0.62,profit:0.14703557},{id:8,title:"USDCHF",bzj:0.5,profit:0.00086},{id:9,title:"BTCUSD",bzj:0.93,profit:97.64},{id:10,title:"NZDJPY",bzj:0.3,profit:0.14118},{id:11,title:"AUDUSD",bzj:0.33,profit:0.001},{id:12,title:"AUDJPY",bzj:0.33,profit:0.14697674},{id:13,title:"GBPCAD",bzj:0.64,profit:0.0013},{id:14,title:"EURUSD",bzj:0.56,profit:0.001},{id:15,title:"EURAUD",bzj:0.56,profit:0.00148}]
     }
   },
   methods:{
